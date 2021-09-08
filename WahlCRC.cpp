@@ -62,11 +62,11 @@ namespace WahlCRC {
 		memset(remainderBuffer, 0, bufferN);
 		unsigned char* parserBuffer = (unsigned char*)parser.getBuffer();
 		unsigned int parserBufferLength = parser.getBufferLength();
-		int count = 0;
+		//int count = 0;
 		// Are enough bits to pull
 		while (true) {
 			// Get bits until most sig a 1, or if eob, break
-			cout << count++ << ":" << endl;
+			//cout << count++ << ":" << endl;
 			while (WahlBit::getMostSigBit(remainderBuffer[0]) != 128) {
 				if (parser.isEndOfBits()) {
 					return;
@@ -74,12 +74,12 @@ namespace WahlCRC {
 				WahlBit::leftShiftBuffer((void*)remainderBuffer, bufferN, 1);
 				parser.getBits(1);
 				remainderBuffer[bufferN - 1] += parserBuffer[parserBufferLength - 1];
-				cout << "Buffer Bit: " << charToNum(parserBuffer[parserBufferLength - 1]) << ", Bit: " << parser.getBitLoc() << ", Byte: " << parser.getByteLoc() << endl;
-
+				//cout << "Buffer Bit: " << charToNum(parserBuffer[parserBufferLength - 1]) << ", Bit: " << parser.getBitLoc() << ", Byte: " << parser.getByteLoc() << endl;
+				//cout << "EOB: " << parser.isEndOfBits() << endl;
 				
 			}
 
-			cout << "PreXOR: " << charToNum(remainderBuffer[0]) << ", " << charToNum(remainderBuffer[1]) << endl;
+			//cout << "PreXOR: " << charToNum(remainderBuffer[0]) << ", " << charToNum(remainderBuffer[1]) << endl;
 
 
 			// XOR
@@ -87,8 +87,8 @@ namespace WahlCRC {
 				remainderBuffer[i] = remainderBuffer[i] ^ crc.poly[LARGEST_POLY_BYTES - bufferN + i];
 			}
 
-			cout << "PostXOR: " << charToNum(remainderBuffer[0]) << ", " << charToNum(remainderBuffer[1]) << endl;
-			cout << endl;
+			//cout << "PostXOR: " << charToNum(remainderBuffer[0]) << ", " << charToNum(remainderBuffer[1]) << endl;
+			//cout << endl;
 		}
 	}
 

@@ -144,6 +144,8 @@ namespace WahlBit {
 
 		if (bytesLoc + (bitsLoc + numberOfBits) / 8 >= dataLength) {
 			endOfBits = true;
+			bitsLoc = 7;
+			bytesLoc = dataLength - 1;
 			return;
 		}
 
