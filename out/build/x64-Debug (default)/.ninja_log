@@ -1,0 +1,14 @@
+# ninja log v5
+5	255	652772916	libs/WahlBit/CMakeFiles/WahlBit.dir/WahlBit.cpp.obj	eba43f22bd31caea
+375	495	652775638	WahlCRC.exe	eef0d9208c956053
+0	373	652774688	CMakeFiles/WahlCRC.dir/WahlCRC.cpp.obj	dec51a606b22ddff
+1	375	652775637	CMakeFiles/WahlCRC.dir/main.cpp.obj	6dc98469c044960b
+9	34	652772962	libs/WahlBit/WahlBit.lib	40c1667fd9c0757b
+0	379	652775823	CMakeFiles/WahlCRC.dir/WahlCRC.cpp.obj	dec51a606b22ddff
+379	536	652775823	WahlCRC.exe	eef0d9208c956053
+0	362	652776178	CMakeFiles/WahlCRC.dir/WahlCRC.cpp.obj	dec51a606b22ddff
+362	513	652776178	WahlCRC.exe	eef0d9208c956053
+0	366	652776752	CMakeFiles/WahlCRC.dir/main.cpp.obj	6dc98469c044960b
+366	485	652776752	WahlCRC.exe	eef0d9208c956053
+0	389	652777014	CMakeFiles/WahlCRC.dir/main.cpp.obj	6dc98469c044960b
+389	546	652777014	WahlCRC.exe	eef0d9208c956053
