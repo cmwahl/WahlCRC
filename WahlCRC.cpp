@@ -15,8 +15,10 @@ namespace WahlCRC {
 
 	MessageCRC::MessageCRC(CRC _crc) {
 		crc = _crc;
+		memset(cstr, 0, MAX_MESSAGE_LENGTH);
 		remainderBuffer = new unsigned char[crc.bits / 8];
 		bufferN = crc.bits / 8;
+		dataLength = 0;
 	}
 
 	MessageCRC::~MessageCRC() {
