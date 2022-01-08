@@ -14,6 +14,6 @@ file(GLOB gpu_header_files "${CMAKE_SOURCE_DIR}/*.cuh")
 add_executable (WahlCRC ${cpu_source_files} ${cpu_header_files} ${gpu_source_files} ${gpu_header_files})
 
 # TODO: Add tests and install targets if needed.
-add_subdirectory("libs/WahlBit")
-target_link_libraries(WahlCRC WahlBit)
-include_directories(WahlCRC public "libs/WahlBit")
+add_subdirectory("libs/WahlBitGetter")
+target_link_libraries(WahlCRC WahlBitGetter)
+include_directories(WahlCRC public "libs/WahlBitGetter")

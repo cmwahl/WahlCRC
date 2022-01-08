@@ -22,14 +22,14 @@
 					]
 				},
 				{
-					"build" : "libs/WahlBit",
+					"build" : "libs/WahlBitGetter",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.8"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
-					"source" : "libs/WahlBit",
+					"source" : "libs/WahlBitGetter",
 					"targetIndexes" : 
 					[
 						0
@@ -59,7 +59,7 @@
 					[
 						1
 					],
-					"name" : "WahlBit",
+					"name" : "WahlBitGetter",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -71,15 +71,15 @@
 			[
 				{
 					"directoryIndex" : 1,
-					"id" : "WahlBit::@59a0257102c54a9f8df8",
-					"jsonFile" : "target-WahlBit-Debug-3859ee46f12e514b708f.json",
-					"name" : "WahlBit",
+					"id" : "WahlBitGetter::@d4b542fe28a384dfe8df",
+					"jsonFile" : "target-WahlBitGetter-Debug-9796d852461cb163ed94.json",
+					"name" : "WahlBitGetter",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "WahlCRC::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-WahlCRC-Debug-189a9558cd252411ad1f.json",
+					"jsonFile" : "target-WahlCRC-Debug-8b33f702c5e7d0c8ca29.json",
 					"name" : "WahlCRC",
 					"projectIndex" : 0
 				}

@@ -67,7 +67,7 @@
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/cmwah/source/repos/WahlCRC/libs/WahlBit"
+					"path" : "C:/Users/cmwah/source/repos/WahlCRC/libs/WahlBitGetter"
 				}
 			],
 			"language" : "CXX",
@@ -82,7 +82,7 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "WahlBit::@59a0257102c54a9f8df8"
+			"id" : "WahlBitGetter::@d4b542fe28a384dfe8df"
 		}
 	],
 	"id" : "WahlCRC::@6890427a1f51a3e7e1df",
@@ -100,7 +100,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "libs\\WahlBit\\WahlBit.lib",
+				"fragment" : "libs\\WahlBitGetter\\WahlBitGetter.lib",
 				"role" : "libraries"
 			},
 			{

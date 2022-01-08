@@ -1026,6 +1026,30 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "WahlBitGetter_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/cmwah/source/repos/WahlCRC/out/build/x64-Debug (default)/libs/WahlBitGetter"
+		},
+		{
+			"name" : "WahlBitGetter_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/cmwah/source/repos/WahlCRC/libs/WahlBitGetter"
+		},
+		{
 			"name" : "WahlBit_BINARY_DIR",
 			"properties" : 
 			[

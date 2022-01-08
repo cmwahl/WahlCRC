@@ -190,6 +190,12 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+WahlBitGetter_BINARY_DIR:STATIC=C:/Users/cmwah/source/repos/WahlCRC/out/build/x64-Debug (default)/libs/WahlBitGetter
+
+//Value Computed by CMake
+WahlBitGetter_SOURCE_DIR:STATIC=C:/Users/cmwah/source/repos/WahlCRC/libs/WahlBitGetter
+
+//Value Computed by CMake
 WahlBit_BINARY_DIR:STATIC=C:/Users/cmwah/source/repos/WahlCRC/out/build/x64-Debug (default)/libs/WahlBit
 
 //Value Computed by CMake

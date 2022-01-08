@@ -12,7 +12,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "libs/WahlBit/WahlBit.lib"
+			"path" : "libs/WahlBitGetter/WahlBitGetter.lib"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 		],
 		"files" : 
 		[
-			"libs/WahlBit/CMakeLists.txt"
+			"libs/WahlBitGetter/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -55,13 +55,13 @@
 			]
 		}
 	],
-	"id" : "WahlBit::@59a0257102c54a9f8df8",
-	"name" : "WahlBit",
-	"nameOnDisk" : "WahlBit.lib",
+	"id" : "WahlBitGetter::@d4b542fe28a384dfe8df",
+	"name" : "WahlBitGetter",
+	"nameOnDisk" : "WahlBitGetter.lib",
 	"paths" : 
 	{
-		"build" : "libs/WahlBit",
-		"source" : "libs/WahlBit"
+		"build" : "libs/WahlBitGetter",
+		"source" : "libs/WahlBitGetter"
 	},
 	"sourceGroups" : 
 	[
@@ -85,12 +85,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "libs/WahlBit/WahlBit.cpp",
+			"path" : "libs/WahlBitGetter/WahlBitGetter.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "libs/WahlBit/WahlBit.h",
+			"path" : "libs/WahlBitGetter/WahlBitGetter.h",
 			"sourceGroupIndex" : 1
 		}
 	],

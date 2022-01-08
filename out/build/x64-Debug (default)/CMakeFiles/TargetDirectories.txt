@@ -1,6 +1,6 @@
 C:/Users/cmwah/source/repos/WahlCRC/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
 C:/Users/cmwah/source/repos/WahlCRC/out/build/x64-Debug (default)/CMakeFiles/WahlCRC.dir
 C:/Users/cmwah/source/repos/WahlCRC/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
-C:/Users/cmwah/source/repos/WahlCRC/out/build/x64-Debug (default)/libs/WahlBit/CMakeFiles/WahlBit.dir
-C:/Users/cmwah/source/repos/WahlCRC/out/build/x64-Debug (default)/libs/WahlBit/CMakeFiles/edit_cache.dir
-C:/Users/cmwah/source/repos/WahlCRC/out/build/x64-Debug (default)/libs/WahlBit/CMakeFiles/rebuild_cache.dir
+C:/Users/cmwah/source/repos/WahlCRC/out/build/x64-Debug (default)/libs/WahlBitGetter/CMakeFiles/WahlBitGetter.dir
+C:/Users/cmwah/source/repos/WahlCRC/out/build/x64-Debug (default)/libs/WahlBitGetter/CMakeFiles/edit_cache.dir
+C:/Users/cmwah/source/repos/WahlCRC/out/build/x64-Debug (default)/libs/WahlBitGetter/CMakeFiles/rebuild_cache.dir

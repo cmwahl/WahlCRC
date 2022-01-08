@@ -53,11 +53,11 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 #############################################
 # Order-only phony target for WahlCRC
 
-build cmake_object_order_depends_target_WahlCRC_Debug: phony || cmake_object_order_depends_target_WahlBit_Debug
+build cmake_object_order_depends_target_WahlCRC_Debug: phony || cmake_object_order_depends_target_WahlBitGetter_Debug
 
 build CMakeFiles\WahlCRC.dir\WahlCRC.cpp.obj: CXX_COMPILER__WahlCRC_Debug ..\..\..\WahlCRC.cpp || cmake_object_order_depends_target_WahlCRC_Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -I..\..\..\WahlCRC -I..\..\..\public -I..\..\..\libs\WahlBit
+  INCLUDES = -I..\..\..\WahlCRC -I..\..\..\public -I..\..\..\libs\WahlBitGetter
   OBJECT_DIR = CMakeFiles\WahlCRC.dir
   OBJECT_FILE_DIR = CMakeFiles\WahlCRC.dir
   TARGET_COMPILE_PDB = CMakeFiles\WahlCRC.dir\
@@ -65,7 +65,7 @@ build CMakeFiles\WahlCRC.dir\WahlCRC.cpp.obj: CXX_COMPILER__WahlCRC_Debug ..\..\
 
 build CMakeFiles\WahlCRC.dir\main.cpp.obj: CXX_COMPILER__WahlCRC_Debug ..\..\..\main.cpp || cmake_object_order_depends_target_WahlCRC_Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -I..\..\..\WahlCRC -I..\..\..\public -I..\..\..\libs\WahlBit
+  INCLUDES = -I..\..\..\WahlCRC -I..\..\..\public -I..\..\..\libs\WahlBitGetter
   OBJECT_DIR = CMakeFiles\WahlCRC.dir
   OBJECT_FILE_DIR = CMakeFiles\WahlCRC.dir
   TARGET_COMPILE_PDB = CMakeFiles\WahlCRC.dir\
@@ -79,10 +79,10 @@ build CMakeFiles\WahlCRC.dir\main.cpp.obj: CXX_COMPILER__WahlCRC_Debug ..\..\..\
 #############################################
 # Link the executable WahlCRC.exe
 
-build WahlCRC.exe: CXX_EXECUTABLE_LINKER__WahlCRC_Debug CMakeFiles\WahlCRC.dir\WahlCRC.cpp.obj CMakeFiles\WahlCRC.dir\main.cpp.obj | libs\WahlBit\WahlBit.lib || libs\WahlBit\WahlBit.lib
+build WahlCRC.exe: CXX_EXECUTABLE_LINKER__WahlCRC_Debug CMakeFiles\WahlCRC.dir\WahlCRC.cpp.obj CMakeFiles\WahlCRC.dir\main.cpp.obj | libs\WahlBitGetter\WahlBitGetter.lib || libs\WahlBitGetter\WahlBitGetter.lib
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = libs\WahlBit\WahlBit.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_LIBRARIES = libs\WahlBitGetter\WahlBitGetter.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\WahlCRC.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -108,68 +108,68 @@ build edit_cache: phony CMakeFiles\edit_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for STATIC_LIBRARY target WahlBit
+# Object build statements for STATIC_LIBRARY target WahlBitGetter
 
 
 #############################################
-# Order-only phony target for WahlBit
+# Order-only phony target for WahlBitGetter
 
-build cmake_object_order_depends_target_WahlBit_Debug: phony || libs\WahlBit\CMakeFiles\WahlBit.dir
+build cmake_object_order_depends_target_WahlBitGetter_Debug: phony || libs\WahlBitGetter\CMakeFiles\WahlBitGetter.dir
 
-build libs\WahlBit\CMakeFiles\WahlBit.dir\WahlBit.cpp.obj: CXX_COMPILER__WahlBit_Debug ..\..\..\libs\WahlBit\WahlBit.cpp || cmake_object_order_depends_target_WahlBit_Debug
+build libs\WahlBitGetter\CMakeFiles\WahlBitGetter.dir\WahlBitGetter.cpp.obj: CXX_COMPILER__WahlBitGetter_Debug ..\..\..\libs\WahlBitGetter\WahlBitGetter.cpp || cmake_object_order_depends_target_WahlBitGetter_Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  OBJECT_DIR = libs\WahlBit\CMakeFiles\WahlBit.dir
-  OBJECT_FILE_DIR = libs\WahlBit\CMakeFiles\WahlBit.dir
-  TARGET_COMPILE_PDB = libs\WahlBit\CMakeFiles\WahlBit.dir\WahlBit.pdb
-  TARGET_PDB = libs\WahlBit\WahlBit.pdb
+  OBJECT_DIR = libs\WahlBitGetter\CMakeFiles\WahlBitGetter.dir
+  OBJECT_FILE_DIR = libs\WahlBitGetter\CMakeFiles\WahlBitGetter.dir
+  TARGET_COMPILE_PDB = libs\WahlBitGetter\CMakeFiles\WahlBitGetter.dir\WahlBitGetter.pdb
+  TARGET_PDB = libs\WahlBitGetter\WahlBitGetter.pdb
 
 
 # =============================================================================
-# Link build statements for STATIC_LIBRARY target WahlBit
+# Link build statements for STATIC_LIBRARY target WahlBitGetter
 
 
 #############################################
-# Link the static library libs\WahlBit\WahlBit.lib
+# Link the static library libs\WahlBitGetter\WahlBitGetter.lib
 
-build libs\WahlBit\WahlBit.lib: CXX_STATIC_LIBRARY_LINKER__WahlBit_Debug libs\WahlBit\CMakeFiles\WahlBit.dir\WahlBit.cpp.obj
+build libs\WahlBitGetter\WahlBitGetter.lib: CXX_STATIC_LIBRARY_LINKER__WahlBitGetter_Debug libs\WahlBitGetter\CMakeFiles\WahlBitGetter.dir\WahlBitGetter.cpp.obj
   LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64
-  OBJECT_DIR = libs\WahlBit\CMakeFiles\WahlBit.dir
+  OBJECT_DIR = libs\WahlBitGetter\CMakeFiles\WahlBitGetter.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = libs\WahlBit\CMakeFiles\WahlBit.dir\WahlBit.pdb
-  TARGET_FILE = libs\WahlBit\WahlBit.lib
-  TARGET_PDB = libs\WahlBit\WahlBit.pdb
+  TARGET_COMPILE_PDB = libs\WahlBitGetter\CMakeFiles\WahlBitGetter.dir\WahlBitGetter.pdb
+  TARGET_FILE = libs\WahlBitGetter\WahlBitGetter.lib
+  TARGET_PDB = libs\WahlBitGetter\WahlBitGetter.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
-build libs\WahlBit\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\cmwah\source\repos\WahlCRC\out\build\x64-Debug (default)\libs\WahlBit" && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+build libs\WahlBitGetter\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\cmwah\source\repos\WahlCRC\out\build\x64-Debug (default)\libs\WahlBitGetter" && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build libs\WahlBit\edit_cache: phony libs\WahlBit\CMakeFiles\edit_cache.util
+build libs\WahlBitGetter\edit_cache: phony libs\WahlBitGetter\CMakeFiles\edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build libs\WahlBit\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\cmwah\source\repos\WahlCRC\out\build\x64-Debug (default)\libs\WahlBit" && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\cmwah\source\repos\WahlCRC -B"C:\Users\cmwah\source\repos\WahlCRC\out\build\x64-Debug (default)""
+build libs\WahlBitGetter\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\cmwah\source\repos\WahlCRC\out\build\x64-Debug (default)\libs\WahlBitGetter" && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\cmwah\source\repos\WahlCRC -B"C:\Users\cmwah\source\repos\WahlCRC\out\build\x64-Debug (default)""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build libs\WahlBit\rebuild_cache: phony libs\WahlBit\CMakeFiles\rebuild_cache.util
+build libs\WahlBitGetter\rebuild_cache: phony libs\WahlBitGetter\CMakeFiles\rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
 
-build WahlBit: phony libs\WahlBit\WahlBit.lib
+build WahlBitGetter: phony libs\WahlBitGetter\WahlBitGetter.lib
 
-build WahlBit.lib: phony libs\WahlBit\WahlBit.lib
+build WahlBitGetter.lib: phony libs\WahlBitGetter\WahlBitGetter.lib
 
 build WahlCRC: phony WahlCRC.exe
 
@@ -181,14 +181,14 @@ build WahlCRC: phony WahlCRC.exe
 #############################################
 # Folder: C:/Users/cmwah/source/repos/WahlCRC/out/build/x64-Debug (default)
 
-build all: phony WahlCRC.exe libs\WahlBit\all
+build all: phony WahlCRC.exe libs\WahlBitGetter\all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/cmwah/source/repos/WahlCRC/out/build/x64-Debug (default)/libs/WahlBit
+# Folder: C:/Users/cmwah/source/repos/WahlCRC/out/build/x64-Debug (default)/libs/WahlBitGetter
 
-build libs\WahlBit\all: phony libs\WahlBit\WahlBit.lib
+build libs\WahlBitGetter\all: phony libs\WahlBitGetter\WahlBitGetter.lib
 
 # =============================================================================
 # Built-in targets
@@ -197,14 +197,14 @@ build libs\WahlBit\all: phony libs\WahlBit\WahlBit.lib
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ..\..\..\CMakeLists.txt ..\..\..\libs\WahlBit\CMakeLists.txt C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\3.17.20032601-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.17.20032601-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.17.20032601-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.17.20032601-MSVC_2\CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ..\..\..\CMakeLists.txt ..\..\..\libs\WahlBitGetter\CMakeLists.txt C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\3.17.20032601-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.17.20032601-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.17.20032601-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.17.20032601-MSVC_2\CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ..\..\..\CMakeLists.txt ..\..\..\libs\WahlBit\CMakeLists.txt C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\3.17.20032601-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.17.20032601-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.17.20032601-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.17.20032601-MSVC_2\CMakeSystem.cmake: phony
+build ..\..\..\CMakeLists.txt ..\..\..\libs\WahlBitGetter\CMakeLists.txt C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\3.17.20032601-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.17.20032601-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.17.20032601-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.17.20032601-MSVC_2\CMakeSystem.cmake: phony
 
 
 #############################################

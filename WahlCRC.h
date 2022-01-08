@@ -5,7 +5,7 @@
 
 #include <iostream>
 #include <string>
-#include "WahlBit.h"
+#include "WahlBitGetter.h"
 
 
 #define TOTAL_CRCs 3
@@ -43,7 +43,7 @@ namespace WahlCRC {
 
 
 	private:
-		WahlBit::BitsParser parser;
+		WahlBitGetter::BitGetter parser;
 		CRC crc;
 		char cstr[MAX_MESSAGE_LENGTH];
 		unsigned char* remainderBuffer = nullptr;
